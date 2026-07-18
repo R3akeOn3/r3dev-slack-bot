@@ -22,8 +22,12 @@ npm install
 
 ```
 
-3. Configure your Slack credentials in a `.env` file if required, then start the bot:
-
+3. Configure your Slack credentials in a `.env` file, then start the bot:
+```env
+SLACK_BOT_TOKEN=slack_bot_token
+SLACK_APP_TOKEN=slack_bot_app
+```
+4. Run the bot:
 ```bash
 node index.js
 
